@@ -78,4 +78,4 @@ Cuando se fusionan ramas se pueden dar 2 resultados diferentes:
 
 ![Fusion Rama Git](./img/fusion-rama-git.jpeg)
 
-
+Como vas ivan
