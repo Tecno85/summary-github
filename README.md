@@ -60,7 +60,22 @@ Para realizar la clonación de un repositorio, nos dirigimos a la URL del reposi
 
 ## Ramas
 
-Una rama nos permite aislar una nueva funcionalidad en nuestro código la cual después podremos añadir a la versión principal.
+Una rama es como una línea de desarrollo separada dentro de un proyecto. Es como una copia en la que se puede trabajar si afectar la versión principal del proyecto(main). En otras palabras nos permite aislar una nueva funcionalidad en nuestro código la cual después podremos añadir a la versión principal.
+
+Pasos:
+
+1. **Rama Principal(main/master)**: Esta es la línea de desarrollo principal donde normalmente se encuentra el código más estable y listo para producción.
+
+1. **Crear una Nueva Rama**: Cuando quieras trabajar en una nueva funcionalidad o corregir un error, creas una nueva rama. Esto permite realizar cambios sin alterar la rama principal.
+
+1. **Trabajaar en la Nueva Rama**: Realizas todos tus cambios en esta nueva rama. Puedo realizar commits y pruebas sin preocuparme por romper nada en la rama principal.
+
+1. **Funcionar (merge)**: Una vez que termino de trabajar y todo está probado, puedo fusionar mi rama con la rama principal. Esto incorpora todos mis cambios al código estable.
+
+1. **Eliminar la Rama**: Despúes de fusionar, puedes eliminar la rama ya que los cambios han sido incorporados a la rama principal.
+
+**Nota**: Si quiero que una rama en la cual estoy trabajando exista en remoto, debo de escribir este comando al momento de realizar el git push: `git push -u origin "nombre-nueva-rama"`
+Para eliminar una rama remota escribo el siguiente comando: `git push origin --delete "nombre-rama"`
 
 ![Ramas Git](./img/ramas.jpeg)
 
@@ -74,8 +89,32 @@ Une dos ramas. Para ahcer una fusión necesitamos:
 Cuando se fusionan ramas se pueden dar 2 resultados diferentes:
 
 - **_Fast-Forwad:_**: La fusión se hace automática, no hay conflictos por resolver.
-- **_Manual Merge_**: La fusión hay que hacerla maual, para resolver conflictos de la duplicación de contenido. 
+- **_Manual Merge_**: La fusión hay que hacerla maual, para resolver conflictos de la duplicación de contenido.
 
 ![Fusion Rama Git](./img/fusion-rama-git.jpeg)
 
-Como vas ivan
+## Cambios
+
+Puedes agregar modificaciones al ultimo cambio
+
+![Imagen Cambios Commits](./img/cambios-commit.jpeg)
+
+Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en cambios o ramas, sin afectar el respositorio como tal. Nota: Se recomienda `NO` realizar el `push` antes de hacer el cambio en el `commit` puesto que dicha acción traera conflictos entre el archivo en local y el remoto.
+
+![Imagen Moverse Commit](./img/moverse-commit.jpeg)
+
+## Registro del Historial
+
+**_Git log_** nos permite conocer todo el historial de un proyecto, con la información de fecha, el autor y el id de cada cambio. Para salir de este se presiona la tecla `q`.
+
+La opción `git log --oneline --graph --all`, nos permite ver los direferentes `commits` en forma gráfica.
+
+![Registro Commits](./img/registro-commit.jpeg)
+
+![Gráficas Commits](./img/grafica-commits.png)
+
+## Reseteo del Historial
+
+Podemos eliminar el historial de cambios del proyecto hacia adelante con respecto de un punto de referencia.
+
+Esta es una <span style="color:orange;">palabra</span> en color azul en una oración.
