@@ -1,3 +1,30 @@
+# **_Git_**
+
+![logo-git](./img/logo-git.png)
+![logo-git](./img/Pulpo-Git.svg)
+
+
+# Temas
+
+- Introducción
+- Configuración Inicial
+- Flujo Básico
+- De master a main
+- Ayuda
+- Ignorar archivos
+- Clonar repositorios
+- Ramas
+- Fusiones
+- Cambios
+- Registro del historial
+- Reseteo del historial
+- Resetear un repositorio
+- Remotos
+- Etiquetas
+- GitHub Pages
+- Colaboración en GitHub
+- Aprende más
+
 # Git & GitHub - JonMircha
 
 Git es un software de conrtol de versiones distribuido y descentralizado que permite a un equipo de desarrolladores trabajar sobre el mismo código.
@@ -105,7 +132,7 @@ Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en 
 
 ## Registro del Historial
 
-**_Git log_** nos permite conocer todo el historial de un proyecto, con la información de fecha, el autor y el id de cada cambio. Para salir de este se presiona la tecla `q`.
+<span style="color:darkorange;">**_Git log_**</span> nos permite conocer todo el historial de un proyecto, con la información de fecha, el autor y el id de cada cambio. Para salir de este se presiona la tecla `q`.
 
 La opción `git log --oneline --graph --all`, nos permite ver los direferentes `commits` en forma gráfica.
 
@@ -117,4 +144,30 @@ La opción `git log --oneline --graph --all`, nos permite ver los direferentes `
 
 Podemos eliminar el historial de cambios del proyecto hacia adelante con respecto de un punto de referencia.
 
-Esta es una <span style="color:orange;">palabra</span> en color azul en una oración.
+![Reseto Historial](./img/reset-history.jpeg)
+
+## Resetear un Repositorio
+
+Si en algun momento tienes la necesidad de resetear el historial de cambios de un repositorio para que quede como si lo acabarás de crear, ejecuta esta serie de comandos. 
+
+![Reset-Repo](./img/reset-repo.jpeg)
+
+## Etiquetas
+
+Con esta opción **_git_** nos permite versionar (asignar un número de versión) a nuestro código , librería o proyecto. Ej: `v1.0.0`
+
+Para profundizar en la nomenclatura de tres número, la cuál hace referencia a la implementación del control de versiones samántico, podemos ingresar a `https://semver.org/`. 
+
+![Image-Etiquetas](./img/image-etiquetas.jpeg)
+
+## GitHub Pages
+
+[**gh-pages**](https://pages.github.com/) es una rama especial para crear un sitio _web_ a tu proyecto alojado directamente en tu repositorio de _GitHub_. 
+
+- _URL_ del repositorio: **https://githube.com/usuario/repositorio**
+
+- _URL_ del sitio: **https://usuario.github.io/repositorio**
+
+Para crear esta rama especial en GitHub ejecutamos los siguientes comandos:
+
+![GitHub-Pages](./img/github-pages.jpeg)
