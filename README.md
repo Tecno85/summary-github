@@ -1,10 +1,6 @@
 
 ![logo-git](./img/imagen-github2.jpg) 
 
-
-
-
-
 # Temas
 
 - Introducción
@@ -154,7 +150,7 @@ Podemos desplazarnos en el historial del repositorio hacia atrás o adelante en 
 
 ## Registro del Historial
 
-<span style="color:darkorange;">**_Git log_**</span> nos permite conocer todo el historial de un proyecto, con la información de fecha, el autor y el id de cada cambio. Para salir de este se presiona la tecla `q`.
+**_Git log_** nos permite conocer todo el historial de un proyecto, con la información de fecha, el autor y el id de cada cambio. Para salir de este se presiona la tecla `q`.
 
 La opción `git log --oneline --graph --all`, nos permite ver los direferentes `commits` en forma gráfica.
 
