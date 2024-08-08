@@ -1,6 +1,7 @@
 
-![logo-git](./img/GitHub-Simbolo-copy-copy.png)
-![logo-git](./img/Pulpo-Git.svg)
+![logo-git](./img/imagen-github2.jpg) 
+
+
 
 
 
