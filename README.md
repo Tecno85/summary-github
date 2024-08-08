@@ -1,7 +1,8 @@
-# **_Git_**
 
-![logo-git](./img/logo-git.png)
+![logo-git](./img/GitHub-Simbolo-copy-copy.png)
 ![logo-git](./img/Pulpo-Git.svg)
+
+
 
 # Temas
 
@@ -215,6 +216,8 @@ Acontinuación se describe el proceso de colaboración en _GitHub_:
 1. Una vez que acepte tu _pull request_, es recomendable que borres la rama en la que trabajaste el cambio y actualices tu repositorio _forkeado_, con los cambios del repositorio original. 
 
 Resumen de los comandos a ejecutar para colaborar en un repositorio de _GitHub_:
+
+![Colaboración GitHub](./img/colaboración-github.png)
 
 ### Nota: Despejando Dudas (- by - ChatGPT -)
 
